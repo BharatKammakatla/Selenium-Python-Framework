@@ -1,45 +1,50 @@
-from selenium.webdriver.support.select import Select
+import pytest
 
+from actions.Actions import Actions
 from pageObjects.BookingPage import BookingPage
 from pageObjects.ConfPage import ConfPage
 from pageObjects.HomePage import HomePage
 from pageObjects.LoginPage import LoginPage
 from utilities.Base import Base
-from actions.Actions import Actions
+from utilities.Data import Data
 
 
 class Test_BookAppointment(Base):
 
-    def test_bookAppointment(self):
-
+    def test_bookAppointment(self, getData):
+        log = self.getLogger()
         hp = HomePage(self.driver)
         lp = LoginPage(self.driver)
         ba = BookingPage(self.driver)
         cp = ConfPage(self.driver)
         actions = Actions(self.driver)
 
-        #hp.getMenu().click()
         actions.click(hp.getMenu())
-        #hp.getLogin().click()
+        log.info("Clicked on Menu")
         actions.click(hp.getLogin())
-        #lp.getUsername().send_keys("John Doe")
-        actions.sendKeys(lp.getUsername(), "John Doe")
-        #lp.getPassword().send_keys("ThisIsNotAPassword")
-        actions.sendKeys(lp.getPassword(), "ThisIsNotAPassword")
-        #lp.getLoginBtn().click()
+        log.info("Clicked on Login")
+        actions.sendKeys(lp.getUsername(), getData["Username"])
+        log.info("Entered Username")
+        actions.sendKeys(lp.getPassword(), getData["Password"])
+        log.info("Entered Password")
         actions.click(lp.getLoginBtn())
+        log.info("Clicked on login button")
 
-        #ddelement = Select(ba.getFacilityDD())
-        #ddelement.select_by_value('Hongkong CURA Healthcare Center')
-        actions.selectFromDD(ba.getFacilityDD(), 'Hongkong CURA Healthcare Center')
+        actions.selectFromDD(ba.getFacilityDD(), getData["Facility"])
+        log.info("Selected Facility option")
 
-        #ba.getReadmission().click()
         actions.click(ba.getReadmission())
-        #ba.getVisitDate().send_keys("24/08/2021")
-        actions.sendKeys(ba.getVisitDate(), "22/08/2021")
-        #ba.getComment().send_keys("This is a test comment")
-        actions.sendKeys(ba.getComment(), "This is a test comment !")
-        #ba.getBookBtn().click()
+        log.info("Selected Readmission")
+        actions.sendKeys(ba.getVisitDate(), getData["Visit Date"])
+        log.info("Selected Date")
+        actions.sendKeys(ba.getComment(), getData["Comment"])
+        log.info("Entered comment")
         actions.click(ba.getBookBtn())
+        log.info("Clicked on book button")
 
         assert cp.getTitle().is_displayed()
+        log.info("Booking Successful")
+
+    @pytest.fixture(params=Data.getTestData("TC2"))
+    def getData(self, request):
+        return request.param
