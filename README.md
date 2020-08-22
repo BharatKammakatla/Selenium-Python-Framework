@@ -16,4 +16,4 @@ Test Automation Framework built with Selenium and Python for browser testing.
 * py.test --html=reports/report.html
 
 
-<!--##### For steps regarding building the framework, please refer to this **[blog](https://blog.bharatkammakatla.com/steps-to-build-a-selenium-java-framework-ckdsi73xg005ga9s1defhemfz)**-->
+##### For steps regarding building the framework, please refer to this **[blog](https://blog.bharatkammakatla.com/selenium-python-automation-framework-how-to-build-cke5vij9p012h9ds1fsaocyax)**
