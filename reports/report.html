@@ -243,7 +243,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 22-Aug-2020 at 15:44:09 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 22-Aug-2020 at 16:47:50 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.3</td></tr></table>
     <h2>Summary</h2>
-    <p>4 tests ran in 33.71 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 17.67 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -274,53 +274,29 @@ function filter_table(elem) {
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
-          <td class="col-name">tests/test_validateFooter.py::Test_Validate_Footer::test_validateFooter</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div><div><img src="screenshots/test_validateFooter.png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div class="log">self = &lt;tests.test_validateFooter.Test_Validate_Footer object at 0x10fd4d748&gt;<br/><br/>    def test_validateFooter(self):<br/>        log = self.getLogger()<br/>        hp = HomePage(self.driver)<br/>    <br/>        #assert hp.getFooter().is_displayed()<br/>&gt;       assert False<br/><span class="error">E       assert False</span><br/><br/>tests/test_validateFooter.py:12: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
           <td class="col-name">tests/test_validateTitle.py::Test_Validate_Title::test_validateTitle[getData0]</td>
-          <td class="col-duration">0.03</td>
+          <td class="col-duration">0.04</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div><div><img src="screenshots/test_validateTitle[getData0].png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div class="log">self = &lt;tests.test_validateTitle.Test_Validate_Title object at 0x10fc17f60&gt;, getData = {&#x27;Comment&#x27;: None, &#x27;Facility&#x27;: None, &#x27;Password&#x27;: None, &#x27;Title&#x27;: &#x27;CURA Healthcare&#x27;, ...}<br/><br/>    def test_validateTitle(self, getData):<br/>        log = self.getLogger()<br/>        hp = HomePage(self.driver)<br/>        actions = Actions(self.driver)<br/>    <br/>        #actualTitle = hp.getTitle().text<br/>        actualTitle = actions.getText(hp.getTitle())<br/>        expectedTitle = getData[&quot;Title&quot;]<br/>    <br/>&gt;       assert actualTitle == expectedTitle<br/><span class="error">E       AssertionError: assert &#x27;CURA Healthcare Service&#x27; == &#x27;CURA Healthcare&#x27;</span><br/><span class="error">E         - CURA Healthcare</span><br/><span class="error">E         + CURA Healthcare Service</span><br/><span class="error">E         ?                ++++++++</span><br/><br/>tests/test_validateTitle.py:20: AssertionError<br/></div></td></tr></tbody>
+            <div class="log">self = &lt;tests.test_validateTitle.Test_Validate_Title object at 0x10b7b9cc0&gt;, getData = {&#x27;Comment&#x27;: None, &#x27;Facility&#x27;: None, &#x27;Password&#x27;: None, &#x27;Title&#x27;: &#x27;CURA Healthcare&#x27;, ...}<br/><br/>    def test_validateTitle(self, getData):<br/>        log = self.getLogger()<br/>        hp = HomePage(self.driver)<br/>        actions = Actions(self.driver)<br/>    <br/>        actualTitle = actions.getText(hp.getTitle())<br/>        expectedTitle = getData[&quot;Title&quot;]<br/>    <br/>&gt;       assert actualTitle == expectedTitle<br/><span class="error">E       AssertionError: assert &#x27;CURA Healthcare Service&#x27; == &#x27;CURA Healthcare&#x27;</span><br/><span class="error">E         - CURA Healthcare</span><br/><span class="error">E         + CURA Healthcare Service</span><br/><span class="error">E         ?                ++++++++</span><br/><br/>tests/test_validateTitle.py:19: AssertionError<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_bookAppointment.py::Test_BookAppointment::test_bookAppointment[getData0]</td>
-          <td class="col-duration">2.49</td>
+          <td class="col-duration">2.42</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:24 Clicked on Menu
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:26 Clicked on Login
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:28 Entered Username
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:30 Entered Password
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:32 Clicked on login button
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:35 Selected Facility option
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:38 Selected Readmission
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:40 Selected Date
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:42 Entered comment
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:44 Clicked on book button
-[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:47 Booking Successful<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/test_login.py::Test_Login::test_login[getData0]</td>
-          <td class="col-duration">1.52</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m test_login:test_login.py:21 Clicked on Menu
-[32mINFO    [0m test_login:test_login.py:23 Clicked on Login
-[32mINFO    [0m test_login:test_login.py:25 Entered Username
-[32mINFO    [0m test_login:test_login.py:27 Entered Password
-[32mINFO    [0m test_login:test_login.py:29 Clicked on login button
-[32mINFO    [0m test_login:test_login.py:32 Login successful<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:23 Clicked on Menu
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:25 Clicked on Login
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:27 Entered Username
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:29 Entered Password
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:31 Clicked on login button
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:34 Selected Facility option
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:37 Selected Readmission
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:39 Selected Date
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:41 Entered comment
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:43 Clicked on book button
+[32mINFO    [0m test_bookAppointment:test_bookAppointment.py:46 Booking Successful<br/></div></td></tr></tbody></table></body></html>

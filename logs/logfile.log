@@ -185,3 +185,79 @@
 2020-08-22 15:43:54,672 :INFO : test_login :Entered Password
 2020-08-22 15:43:55,242 :INFO : test_login :Clicked on login button
 2020-08-22 15:43:55,273 :INFO : test_login :Login successful
+2020-08-22 16:37:38,405 :INFO : test_bookAppointment :Clicked on Menu
+2020-08-22 16:37:38,900 :INFO : test_bookAppointment :Clicked on Login
+2020-08-22 16:37:39,028 :INFO : test_bookAppointment :Entered Username
+2020-08-22 16:37:39,096 :INFO : test_bookAppointment :Entered Password
+2020-08-22 16:37:41,396 :INFO : test_bookAppointment :Clicked on login button
+2020-08-22 16:37:41,457 :INFO : test_bookAppointment :Selected Facility option
+2020-08-22 16:37:41,501 :INFO : test_bookAppointment :Selected Readmission
+2020-08-22 16:37:41,630 :INFO : test_bookAppointment :Selected Date
+2020-08-22 16:37:41,708 :INFO : test_bookAppointment :Entered comment
+2020-08-22 16:37:42,191 :INFO : test_bookAppointment :Clicked on book button
+2020-08-22 16:37:42,210 :INFO : test_bookAppointment :Booking Successful
+2020-08-22 16:37:48,394 :INFO : test_login :Clicked on Menu
+2020-08-22 16:37:48,890 :INFO : test_login :Clicked on Login
+2020-08-22 16:37:49,000 :INFO : test_login :Entered Username
+2020-08-22 16:37:49,069 :INFO : test_login :Entered Password
+2020-08-22 16:37:49,659 :INFO : test_login :Clicked on login button
+2020-08-22 16:37:49,680 :INFO : test_login :Login successful
+2020-08-22 16:37:55,614 :INFO : test_validateFooter :Footer validation successful
+2020-08-22 16:40:54,335 :INFO : test_bookAppointment :Clicked on Menu
+2020-08-22 16:40:55,397 :INFO : test_bookAppointment :Clicked on Login
+2020-08-22 16:40:55,561 :INFO : test_bookAppointment :Entered Username
+2020-08-22 16:40:55,632 :INFO : test_bookAppointment :Entered Password
+2020-08-22 16:40:56,827 :INFO : test_bookAppointment :Clicked on login button
+2020-08-22 16:40:56,890 :INFO : test_bookAppointment :Selected Facility option
+2020-08-22 16:40:56,932 :INFO : test_bookAppointment :Selected Readmission
+2020-08-22 16:40:57,078 :INFO : test_bookAppointment :Selected Date
+2020-08-22 16:40:57,152 :INFO : test_bookAppointment :Entered comment
+2020-08-22 16:40:57,858 :INFO : test_bookAppointment :Clicked on book button
+2020-08-22 16:40:57,883 :INFO : test_bookAppointment :Booking Successful
+2020-08-22 16:41:03,874 :INFO : test_login :Clicked on Menu
+2020-08-22 16:41:04,362 :INFO : test_login :Clicked on Login
+2020-08-22 16:41:04,456 :INFO : test_login :Entered Username
+2020-08-22 16:41:04,535 :INFO : test_login :Entered Password
+2020-08-22 16:41:05,118 :INFO : test_login :Clicked on login button
+2020-08-22 16:41:05,157 :INFO : test_login :Login successful
+2020-08-22 16:41:10,697 :INFO : test_validateFooter :Footer validation successful
+2020-08-22 16:42:14,981 :INFO : test_bookAppointment :Clicked on Menu
+2020-08-22 16:42:15,510 :INFO : test_bookAppointment :Clicked on Login
+2020-08-22 16:42:15,645 :INFO : test_bookAppointment :Entered Username
+2020-08-22 16:42:15,743 :INFO : test_bookAppointment :Entered Password
+2020-08-22 16:42:16,516 :INFO : test_bookAppointment :Clicked on login button
+2020-08-22 16:42:16,617 :INFO : test_bookAppointment :Selected Facility option
+2020-08-22 16:42:16,669 :INFO : test_bookAppointment :Selected Readmission
+2020-08-22 16:42:16,839 :INFO : test_bookAppointment :Selected Date
+2020-08-22 16:42:16,953 :INFO : test_bookAppointment :Entered comment
+2020-08-22 16:42:17,988 :INFO : test_bookAppointment :Clicked on book button
+2020-08-22 16:42:18,053 :INFO : test_bookAppointment :Booking Successful
+2020-08-22 16:42:25,316 :INFO : test_login :Clicked on Menu
+2020-08-22 16:42:25,928 :INFO : test_login :Clicked on Login
+2020-08-22 16:42:26,065 :INFO : test_login :Entered Username
+2020-08-22 16:42:26,156 :INFO : test_login :Entered Password
+2020-08-22 16:42:27,075 :INFO : test_login :Clicked on login button
+2020-08-22 16:42:27,121 :INFO : test_login :Login successful
+2020-08-22 16:42:33,827 :INFO : test_validateFooter :Footer validation successful
+2020-08-22 16:46:11,297 :INFO : test_bookAppointment :Clicked on Menu
+2020-08-22 16:46:11,803 :INFO : test_bookAppointment :Clicked on Login
+2020-08-22 16:46:11,923 :INFO : test_bookAppointment :Entered Username
+2020-08-22 16:46:11,995 :INFO : test_bookAppointment :Entered Password
+2020-08-22 16:46:12,614 :INFO : test_bookAppointment :Clicked on login button
+2020-08-22 16:46:12,686 :INFO : test_bookAppointment :Selected Facility option
+2020-08-22 16:46:12,729 :INFO : test_bookAppointment :Selected Readmission
+2020-08-22 16:46:12,853 :INFO : test_bookAppointment :Selected Date
+2020-08-22 16:46:12,929 :INFO : test_bookAppointment :Entered comment
+2020-08-22 16:46:13,648 :INFO : test_bookAppointment :Clicked on book button
+2020-08-22 16:46:13,684 :INFO : test_bookAppointment :Booking Successful
+2020-08-22 16:47:38,952 :INFO : test_bookAppointment :Clicked on Menu
+2020-08-22 16:47:39,498 :INFO : test_bookAppointment :Clicked on Login
+2020-08-22 16:47:39,628 :INFO : test_bookAppointment :Entered Username
+2020-08-22 16:47:39,727 :INFO : test_bookAppointment :Entered Password
+2020-08-22 16:47:40,416 :INFO : test_bookAppointment :Clicked on login button
+2020-08-22 16:47:40,515 :INFO : test_bookAppointment :Selected Facility option
+2020-08-22 16:47:40,565 :INFO : test_bookAppointment :Selected Readmission
+2020-08-22 16:47:40,724 :INFO : test_bookAppointment :Selected Date
+2020-08-22 16:47:40,836 :INFO : test_bookAppointment :Entered comment
+2020-08-22 16:47:41,199 :INFO : test_bookAppointment :Clicked on book button
+2020-08-22 16:47:41,254 :INFO : test_bookAppointment :Booking Successful
